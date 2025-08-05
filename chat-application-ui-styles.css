@@ -1,0 +1,43 @@
+.chat-img {
+    width: 40px;
+    height: 30px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+}
+
+.chat-container {
+    max-width: 1200px;
+    margin: -5px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.message {
+    flex: 1 0 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    min-width: 300px;
+    /* border: 1px solid; */
+    border-radius: 3px;
+    box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3), 0 6px 20px rgba(0, 123, 255, 0.2);
+    padding: 2px;
+    word-wrap: break-word;
+}
+
+.sender-message {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
+
+
+.receiver-message {
+    position: relative;
+    left: 50%;
+    margin-top: 20px;
+    padding-top: 20px;
+
+}
